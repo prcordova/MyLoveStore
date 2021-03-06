@@ -172,9 +172,37 @@ h4{
 
 .col-2 .offer-img{
     padding: 5px;
-
+    
 }
 small{
     color: rgb(238, 96, 1);
+    
+}
+
+/********Testimonial*********/
+
+.testimonial{
+    padding-top: 5px;
 
 }
+.col-3:hover{
+    transform: translateY(-5px);
+}
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px;
+    width: 200px;
+    height: 400px;
+    
+    
+}
+.testimonial .col-3 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px ;
+    border-radius: 50%;
+    
+}
+
+ 
