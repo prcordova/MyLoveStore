@@ -29,12 +29,12 @@ O layout deve ser responsivo, ser intuitivo, ter boa usabilidade e direcionar o 
 
 
 start date : 05/03/21
-conclusion date : dia 12/03/21
+conclusion date : dia 11/03/21
 
-Day 1   -NavBar
-Day 2   -Footer
-Day 3   -layout
-Day 4   -Items template
-Day 5   -JS integration
-Day 6   -Implementations
-Day 7   -all must be done
+05.03.21 Day 1   -NavBar  ------------- *Completed Sucessfully
+06.03.21 Day 2   -layout  -------------
+07.03.21 Day 3   -Items template  -----
+08.03.21 Day 4   -Footer
+09.03.21 Day 5   -JS integration
+10.03.21 Day 6   -Implementations
+11.03.21 Day 7   -all must be done
