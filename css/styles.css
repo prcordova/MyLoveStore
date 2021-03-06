@@ -27,7 +27,7 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: rgb(238, 96, 1);;
+    color: whitesmoke;
 }
 p{
     color:#555;
@@ -83,7 +83,7 @@ p{
 
 .bgimg{
 
-width: 750px;
+width: 100%;
 
 
 }
@@ -316,4 +316,39 @@ ul{
 
 .copyright{
     text-align: center;
+}
+/***menu **/
+.menu-icon{
+     
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+/************media query for meny ************/
+
+@media only screen and (max-width:800px){
+    nav ul{
+        position: absolute;
+        top: 80px;
+        right: 0;
+        width: 100%;
+        
+        background:repeating-radial-gradient(rgba(255, 255, 255, 0.219), #54b4eb60);
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
 }
