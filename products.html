@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
     <meta charset='utf-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>MyStore | Ecomerce Website Design </title>
-
+    <title> Todos Produtos MyStore | Website Design </title>
     <script src="https://kit.fontawesome.com/ae20ed97e2.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
         rel="stylesheet">
-
     <link rel="shortcut icon" href="img/favicon.png" />
-
-
     <link rel='stylesheet' type='text/css' media='screen' href='/css/styles.css'>
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
-
 <body>
-    <div class="header">
-
-
         <div class="container">
             <div class="navbar">
                 <div class="logo">
@@ -40,57 +28,22 @@
                         <li><a href="">Conta</a></li>
                     </ul>
                     <!--iconsClasses in NavBar Right-->
-
                 </nav>
-
                 <img src="img/cart3.png" alt="" width="30px " height="30px">
                 <img src="img/menu3.webp" class="menu-icon" onclick="menutoggle()">
-
-            </div>
-            <div class="row">
-                <div class="col-2">
-                    <h1>Tudo em moda <br> infantil</h1>
-                    <!-- Optional sub text-->
-                    <p>"Ser criança é ter mil sonhos <br>
-                        e desfrutar da vida intensamente <br>
-                        todos os dias."
-                    </p>
-                    <a href="" class="btn">Explore Now &nbsp; &#10132;</i>
-
-                    </a>
-
-                </div>
-                <div class="col-2">
-                    <!--Optional background img--> <img class="bgimg" src="img/background3.png" alt="Background img">
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <!----featured categories ------->
-    <div class="categories">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <img src="img/product1-1.jpg" alt="imagem de categorias1">
-                </div>
-
-                <div class="col-3">
-                    <img src="img/product2-1.jpg" alt="imagem de categorias2">
-                </div>
-
-                <div class="col-3">
-                    <img src="img/product3-1.jpg" alt="imagem de categorias3">
-                </div>
             </div>
         </div>
-    </div>
-
-    <!----featured products ------->
-
     <div class="small-container">
-        <h2 class="title">Em destaque</h2>
+      <div class="row row-2">
+          <h2>Todos Produtos</h2>
+          <select>
+              <option value="">Classificar por: Padrão</option>
+              <option value="">Classificar por: Preço</option>
+              <option value="">Classificar por: Popularidade</option>
+              <option value="">Classificar por: Avaliações</option>
+              <option value="">Classificar por: Mais vendidos</option>
+          </select>
+      </div>
         <div class="row">
             <div class="col-4">
                 <img src="img/product1-1.jpg" alt="Featured product">
@@ -142,8 +95,7 @@
                 <p>R$50.00</p>
             </div>
         </div>
-        <!------Latest Products section-->
-        <h2 class="title">Lançamentos</h2>
+
         <div class="row">
             <div class="col-4">
                 <img src="img/product5-1.jpg" alt="Featured product">
@@ -249,106 +201,16 @@
             </div>
         </div>
 
-    </div>
-
-    <!------Offer------->
-
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="img/product17-1.jpg" alt="chinelo exclusivo aviões" class="offer-img">
-                </div>
-
-                <div class="col-2">
-                    <p>Produto exclusivo</p>
-                    <h1>Chinelo infantil Mickey &#38; Minnie Mouse ! </h1>
-                    <small>Chegou mais uma incrivel novidade!
-                        Chinelo infantil Mickey &#38; Minnie Mouse, um item exclusivo da MyLove <br>
-                        aproveite e adicione este lindo item ao seu carrinho agora mesmo!
-                    </small>
-                    <a href="" class="btn">Comprar agora &#8594</a>
-                </div>
-            </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594</span>
         </div>
+
     </div>
 
-    <!---------Testimonial (Optional section)------------>
-    <div class="small-container">
-        <h2 class="title">Avaliações de usuários</h2>
-        <div class="testimonial">
-            <div class="small-container">
-                <div class="row">
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Chegou antes do prazo, <br> ótimos preços e produto de ótima qualidade! <br>
-                            com certeza comprarei novamente e recomendarei aos meus amigos</p>
-
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <img src="img/user1.jpg" alt="user image">
-                        <h3>Roberto Santos</h3>
-                    </div>
-
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Incrivel como eles enviam o produto, seguro,
-                            bem embalado e com todos mimos que um cliente pode querer. <br>
-                            recomendado com sucesso ! <br>
-                            &#128525</p>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <img src="img/user2.jpg" alt="user image">
-                        <h3>Pietra Aurora</h3>
-                    </div>
-
-                    <div class="col-3">
-                        <i class="fa fa-quote-left"></i>
-                        <p>Minha filha adorou os presentes, com certeza a loja é muito atenciosa
-                            só tenho a agradecer e indicar! comprarei novamente ! <br>
-                            &#128540;&#128540;&#128540;
-                        </p>
-                        <div class="rating">
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                        </div>
-                        <img src="img/user3.jpg" alt="user image">
-                        <h3>Pedro Ricardo</h3>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!------Brands or social media (optional section)-------->
-
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <a href="https://www.instagram.com/procdev/" target="_blank"><img src="img/social2.png" alt=""></a>
-                </div>
-                <div class="col-5">
-                    <a href="https://www.facebook.com/ProcStudio" target="_blank"><img src="img/social1.webp"
-                            alt=""></a>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <!-----------Footer section--------->
 

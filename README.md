@@ -27,6 +27,12 @@ Todas as páginas devem ter um cabeçalho com menu e caixa de busca, além de um
 O layout deve ser responsivo, ser intuitivo, ter boa usabilidade e direcionar o usuário para o fechamento do pedido.
 
 
+carrocel Slides
+pagina de categoria
+pagina de produtos
+
+
+
 
 start date : 05/03/21
 conclusion date : dia 11/03/21
@@ -38,3 +44,5 @@ conclusion date : dia 11/03/21
 09.03.21 Day 5   -JS integration
 10.03.21 Day 6   -Implementations
 11.03.21 Day 7   -all must be done
+
+ 
