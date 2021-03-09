@@ -37,29 +37,65 @@
     </div>
 
     <!---------Single product details -------------->
-    <div class="small-container">
+    <div class="small-container single-product">
         <div class="row">
             <div class="col-2">
-                <img src="img/product1-1.jpg" alt="image">
+                <img src="img/product3-1.jpg" width="100%" id="productImg">
+
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="img/product3-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product3-2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product3-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="img/product3-4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+
+
+
+
+
             </div>
             <div class="col-2">
-                <p>Inicio / Almofada</p>
-                <h1>Almofada de panda</h1>
+                <p>Inicio / Camiseta</p>
+                <h1>Camiseta infantil</h1>
                 <h4>R$ 50.00</h4>
                 <select>
-                    <optio>Selecionar variações</optio>
-                    <optio>Tamanho PP</optio>
-                    <optio>Tamanho P</optio>
-                    <optio>Tamanho M</optio>
-                    <optio>Tamanho G</optio>
-                    <optio>Tamanho GG</optio>
-                  
+                    <option>Selecionar variações</option>
+                    <optino>Tamanho PP</option>
+                        <option>Tamanho P
+                    </optino>
+                    <option>Tamanho M</option>
+                    <option>Tamanho G</option>
+                    <option>Tamanho GG</option>
+
                 </select>
+                <input type="number" value="1">
+                <a href="" class="btn">Adicionar ao carrinho</a>
+                <h3>Detalhes do produto <i class="fa fa-indent"></i></h3>
+                <br>
+                <p>Camiseta infantil Gamer Fortnite </p>
 
             </div>
         </div>
     </div>
 
+<!-------------Title----------->
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Produtos relacionados</h2>
+            <p>Ver mais</p>
+
+        </div>
+    </div>
+
+<!-------------Products----------->
 
     <div class="small-container">
         <div class="row">
@@ -175,6 +211,28 @@
                 MenuItems.style.maxHeight = "0px";
             }
         }
+    </script>
+
+
+    <!------js for product gallery--------------->
+
+    <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function () {
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function () {
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function () {
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function () {
+            productImg.src = smallImg[3].src;
+        }
+
     </script>
 
 </body>
