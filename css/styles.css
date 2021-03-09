@@ -466,6 +466,7 @@ input:focus{
 table{
     width: 100%;
     border-collapse: collapse;
+    
 }
 
 .cart-info{
@@ -501,11 +502,13 @@ td img{
 .total-price{
     display: flex;
     justify-content: flex-end;
-   
+   margin-right: 155px;
+   position: relative;
 
 }
 .total-price table{
     border-top:3px solid #54b3eb;
+    
     width: 100%;
     max-width: 400px;
 }
