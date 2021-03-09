@@ -34,7 +34,7 @@
                 </div>
                 <nav>
                     <ul id="MenuItems">
-                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html"> Inicio</a></li>
                         <li><a href="products.html">Produtos</a></li>
                         <li><a href="">Sobre</a></li>
                         <li><a href="account.html">Conta</a></li>
@@ -55,7 +55,7 @@
                         e desfrutar da vida intensamente <br>
                         todos os dias."
                     </p>
-                    <a href="" class="btn">Explore Now &nbsp; &#10132;</i>
+                    <a href="products.html" class="btn">Ver mais &nbsp; &#10132;</i>
 
                     </a>
 
@@ -68,6 +68,7 @@
         </div>
     </div>
 
+
     <!----featured categories ------->
     
     <div class="categories">
@@ -75,11 +76,11 @@
             <h2 class="title">Em destaque</h2>
             <div class="row">
                 <div class="col-3">
-                    <img src="img/product1-1.jpg" alt="imagem de categorias1">
+                   <a href="product-details.html"><img src="img/product1-1.jpg" alt="imagem de categorias1"></a> 
                 </div>
 
                 <div class="col-3">
-                    <img src="img/product2-1.jpg" alt="imagem de categorias2">
+                    <a href="product2-details.html"> <img src="img/product2-1.jpg" alt="imagem de categorias2"></a> 
                 </div>
 
                 <div class="col-3">
@@ -396,20 +397,9 @@
     </div>
 
 
-    <!----JS for toggle menu------>
-    <script>
-        var MenuItems = document.getElementById("MenuItems");
-
-        MenuItems.style.maxHeight = "0px";
-
-        function menutoggle() {
-            if (MenuItems.style.maxHeight == "0px") {
-                MenuItems.style.maxHeight = "200px";
-            }
-            else {
-                MenuItems.style.maxHeight = "0px";
-            }
-        }
+    <!----JS linked from------>
+    <script src="js/scripts.js">
+       
     </script>
 
 </body>
