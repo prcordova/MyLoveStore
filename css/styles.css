@@ -334,18 +334,18 @@ ul{
     display: none;
 }
 
-/************media query for meny ************/
+/************media query for menu ************/
 
 @media only screen and (max-width:800px){
     nav ul{
-        position: absolute;
-        top: 80px;
+        position: fixed;
+        top:140px;
         right: 0;
-        width: 100%;
-        
+        width: 150px;
         background:repeating-radial-gradient(rgba(255, 255, 255, 0.219), #54b4eb60);
-        overflow: hidden;
-        transition: max-height 0.5s;
+        overflow:hidden;
+        transition: max-height 1s;
+        z-index: 4;
     }
     nav ul li{
         display: block;
@@ -354,11 +354,16 @@ ul{
         margin-bottom: 10px;
     }
     nav ul li a{
-        color: #fff;
+        color: rgb(0, 0, 0);
     }
     .menu-icon{
         display: block;
+        
         cursor: pointer;
+        position: fixed;
+        margin-left: 480px;
+        z-index:5;
+        
     }
 }
 /*****************All products page**************************/
@@ -589,6 +594,9 @@ form a{
     transition: 1s;
 }
 
+/************SLIDE Carousel *******************/
+
+ 
 /* media query for less than 600 screen size */
 
 @media only screen and (max-width:600px){
