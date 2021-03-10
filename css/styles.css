@@ -60,7 +60,7 @@ p{
 
 .btn {
     display: inline-block;
-    background-color: #4649ec;
+    background-color: #7cbb40;
     color: #fff;
     padding: 8px 30px;
     margin: 30px 0;
@@ -117,20 +117,22 @@ width: 100%;
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+   
     
 }
-.small-container h2 {
-    background-color: #54b3eb;
-    width: 330px;
-    align-items: center;
-    height: 90px;
+.small-container h2{
+    transition: .5s;
+ 
+    width: auto;
     border-radius: 30px;
-    outline: none;
-    text-decoration: none;
-
+    max-width: 400px;
+    
 }
+
 .small-container h2:hover{
     background-color: #59dee2;
+    transform: translateY(-10px);
+    
 }
 
 
