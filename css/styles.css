@@ -119,6 +119,19 @@ width: 100%;
     padding-right: 25px;
     
 }
+.small-container h2 {
+    background-color: #54b3eb;
+    width: 330px;
+    align-items: center;
+    height: 90px;
+    border-radius: 30px;
+    outline: none;
+    text-decoration: none;
+
+}
+.small-container h2:hover{
+    background-color: #59dee2;
+}
 
 
 /*featured products*/
