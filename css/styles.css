@@ -82,6 +82,32 @@ p{
     color: rgb(93, 111, 211);
 
 }
+
+ .comprar-btn {
+    display: inline-block;
+    background-color: #579128;
+    color: #fff;
+    padding: 8px 30px;
+    
+    border-radius: 30px;
+    transition:  0.3s;
+    width: 215px;
+      
+    margin-top: 10px;
+    margin-bottom: 10px;
+     
+    
+}
+
+ .comprar-btn:hover{
+    background: radial-gradient(#fff, #54b3eb);
+    color: rgb(93, 111, 211);
+
+}
+
+
+
+
 .header {
     background:#54b3eb
 }
@@ -496,11 +522,12 @@ input:focus{
 
 .cart-page{
     padding-top: 20px;
-    margin-right: 80px auto;
+    margin-right:   auto;
 }
 table{
     width: 100%;
     border-collapse: collapse;
+    
     
 }
 
@@ -514,6 +541,7 @@ th{
     color: #fff;
     background-color: #54b3eb;
     font-weight: normal;
+    
 }
 td{
     padding: 10px;
@@ -527,6 +555,7 @@ td input{
 td a{
     color: #54b3eb;
     font-size: 12px;
+    
 }
 td img{
     width: 80px;
@@ -537,15 +566,16 @@ td img{
 .total-price{
     display: flex;
     justify-content: flex-end;
-   margin-right: 155px;
-   position: relative;
+    text-align: left;
+   
+    
 
 }
 .total-price table{
     border-top:3px solid #54b3eb;
-    
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
+    margin-left: 30px;
 }
 td:last-child{
     text-align: right;
