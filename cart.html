@@ -17,57 +17,59 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <a href="index.html"> <img class="logo" src="img/logo4.png" width="125px" alt=""> </a>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"> <img class="logo" src="img/logo.png" width="125px" alt=""> </a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html"> Inicio</a></li>
+                        <li><a href="products.html">Produtos</a></li>
+                        <li><a href="">Sobre</a></li>
+                        <li><a href="account.html">Conta</a></li>
+                    </ul>
+                    <!--iconsClasses in NavBar Right-->
+                </nav>
+                <a href="cart.html"><img src="img/cart3.png" alt="" width="30px " height="30px"></a>
+                <img src="img/menu3.webp" class="menu-icon" onclick="menutoggle()">
             </div>
-            <nav>
-                <ul id="MenuItems">
-                    <li><a href="">Inicio</a></li>
-                    <li><a href="">Produtos</a></li>
-                    <li><a href="">Sobre</a></li>
-                    <li><a href="">Conta</a></li>
-                </ul>
-                <!--iconsClasses in NavBar Right-->
-            </nav>
-            <img src="img/cart3.png" alt="" width="30px " height="30px">
-            <img src="img/menu3.webp" class="menu-icon" onclick="menutoggle()">
         </div>
     </div>
 
-    
 
- <!--------cart items details----------->
 
-    <div class="small-container cart-page">
+    <!--------cart items details----------->
+    <div class="small-container">
+        <div class="small-container cart-page">
 
-        <table>
-            <tr>
-                <th>Produto</th>
-                <th>Quantidade</th>
-                <th>SubTotal</th>
-            </tr>
-            <tr>
-                <td>
-                    <div class="cart-info">
-                        <img src="img/product3-1.jpg" alt="">
-                        <div>
-                            <p>Conjunto primavera</p>
-                            <small>Preço: R$ 50.00</small>
-                            <br>
-                            <a href="">Remover</a>
+            <table>
+                <tr>
+                    <th>Produto</th>
+                    <th>Quantidade</th>
+                    <th>SubTotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="img/product3-1.jpg" alt="">
+                            <div>
+                                <p>Conjunto primavera</p>
+                                <small>Preço: R$ 50.00</small>
+                                <br>
+                                <a href="">Remover</a>
+                            </div>
                         </div>
-                    </div>
 
 
-                </td>
-                <td><input type="number" value="1"></td>
-                <td>R$50.00</td>
-            </tr>
-        </table>
-    </div>
- 
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$50.00</td>
+                </tr>
+            </table>
+        </div>
+
         <div class="total-price">
             <table>
                 <tr>
@@ -84,7 +86,7 @@
                 </tr>
             </table>
         </div>
-
+    </div>
 
     <!-----------Footer section--------->
 
@@ -100,7 +102,7 @@
                     </div>
                 </div>
                 <div class="footer-col-2">
-                    <img src="img/logo1.jpg" alt="logo1 download app img">
+                    <img src="img/logo.png" alt="logo1 download app img">
                     <p> Nosso objetivo é entregar conforto, alegria e facilidade para sua familia!
                     </p>
                 </div>
@@ -146,7 +148,7 @@
         }
     </script>
 
- 
+
 </body>
 
 </html>

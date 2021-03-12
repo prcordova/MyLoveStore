@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ol, li, ul {
+    padding: 0;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -11,15 +13,17 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 5px 20px;
 }
 nav{
     flex: 1;
     text-align: right;
 }
 nav ul {
+    margin-top: 25px;
     display: inline-block;
     list-style-type: none;
+    text-transform: uppercase;
 }
 nav ul li{
     display: inline-block;
@@ -27,10 +31,15 @@ nav ul li{
 }
 a{
     text-decoration: none;
-    color: rgb(5, 8, 29);
+    color: rgb(0, 245, 253);
 }
+a:hover{
+    color:rgb(0, 245, 253);
+}
+ 
 p{
     color:#555;
+     
 }
 .container {
     max-width: 1000px;
@@ -74,7 +83,7 @@ p{
 
 }
 .header {
-    background:repeating-radial-gradient(#fff,#54b3eb)
+    background:#54b3eb
 }
 .header .row{
     margin-top: 5px;
@@ -85,17 +94,13 @@ p{
 
 width: 100%;
  
-
-
-
-
 }
 .logo {
-    width: 225px;
+    width: 30%;
     height: auto;
     border-radius: 30%;
     height: auto;
-    width: 40%;
+     
 }
 
 .categories {
@@ -188,7 +193,7 @@ h4{
 
 /******** Offer section**********/
 .offer{
-    background: radial-gradient(#fff, #54b3eb);
+    background: #54b3eb;
     margin-top:80px ;
     padding: 30px 0;
 }
@@ -199,7 +204,7 @@ h4{
     
 }
 small{
-    color: rgb(238, 96, 1);
+    color:#fcfcfc;
     
 }
 
@@ -278,9 +283,18 @@ color:#54b3eb ;
     color: #8a8a8a;
     font-size: 14px;
     padding: 60px 0 20px;
+    
+}
+.footer a{
+    text-decoration: none;
+    color: #fcfcfc;
 }
 .footer p{
     color: #8a8a8a;
+    word-wrap: break-word;
+   
+    
+    
 }
 .footer h3{
     color:#fff;
@@ -353,8 +367,8 @@ ul{
 
 @media only screen and (max-width:800px){
     nav ul{
-        position: fixed;
-        top:140px;
+        position: absolute;
+        margin-top:30px;
         right: 0;
         width: 150px;
         background:repeating-radial-gradient(rgba(255, 255, 255, 0.219), #54b4eb60);
@@ -375,8 +389,8 @@ ul{
         display: block;
         
         cursor: pointer;
-        position: fixed;
-        margin-left: 480px;
+        position: relative;
+        
         z-index:5;
         
     }
@@ -476,6 +490,7 @@ input:focus{
 /*********cart items details******************/
 
 .cart-page{
+    padding-top: 20px;
     margin-right: 80px auto;
 }
 table{
@@ -640,4 +655,5 @@ form a{
     
 }
 
-
+/* media query for less than 600 screen size */
+ 
